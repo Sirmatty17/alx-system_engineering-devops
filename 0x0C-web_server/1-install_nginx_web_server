@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Installs, configures, and starts the server
 apt-get update
 apt-get -y install nginx
@@ -30,6 +31,8 @@ else
 	service nginx restart
 fi
 =======
+=======
+>>>>>>> b4fb77b19c34839d7bd259f5adebfa2c59d02d51
 # installs nginx and configures it on a remote server
 
 apt-get -y update
@@ -37,4 +40,7 @@ apt-get -y install nginx
 ufw allow 'Nginx HTTP'
 echo 'Hello World!' > /var/www/html/index.nginx-debian.html
 service nginx start
+<<<<<<< HEAD
+>>>>>>> b4fb77b19c34839d7bd259f5adebfa2c59d02d51
+=======
 >>>>>>> b4fb77b19c34839d7bd259f5adebfa2c59d02d51
